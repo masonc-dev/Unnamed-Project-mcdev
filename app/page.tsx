@@ -18,7 +18,7 @@ export default function Home() {
 
   return (
     <div>
-      <div className="flex flex-col justify-center items-center min-h-screen">
+      <div className="fixed flex-col justify-center items-center min-h-screen">
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-center text-bold text-5xl p-4">
             Boilerplate
