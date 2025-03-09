@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { Clipboard, ClipboardCheck} from "lucide-react";
+import { Clipboard, ClipboardCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { ModeToggle } from "@/components/ui/mode-toggle";
@@ -18,11 +18,9 @@ export default function Home() {
 
   return (
     <div>
-      <div className="fixed flex-col justify-center items-center min-h-screen">
+      <div className="flex flex-col justify-center items-center min-h-screen">
         <div className="flex flex-col justify-center items-center">
-          <h1 className="text-center text-bold text-5xl p-4">
-            Boilerplate
-          </h1>
+          <h1 className="text-center text-bold text-5xl p-4">Boilerplate</h1>
           <p className="text-center p-4">
             A simple boilerplate for a future project im working on.
           </p>
