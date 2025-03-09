@@ -6,13 +6,13 @@ import { Input } from "@/components/ui/input";
 import { ModeToggle } from "@/components/ui/mode-toggle";
 
 export default function Home() {
-  const [text] = useState<string>("https://example.com?q=%s"); // Example text with type
-  const [copied, setCopied] = useState<boolean>(false); // "copied" state as boolean
+  const [text] = useState<string>("https://example.com?q=%s");
+  const [copied, setCopied] = useState<boolean>(false);
 
   const handleCopy = (): void => {
     navigator.clipboard.writeText(text).then(() => {
       setCopied(true);
-      setTimeout(() => setCopied(false), 2000); // Reset the "copied" state after 2 seconds
+      setTimeout(() => setCopied(false), 2000); 
     });
   };
 
@@ -42,9 +42,9 @@ export default function Home() {
       </div>
       <div className="fixed bottom-0 left-1/2 transform -translate-x-1/2 text-sm p-4">
         <div className="flex justify-center items-center space-x-2">
-          <a href="https://duckduckgo.com/bangs">github</a>
+          <a href="#">link</a>
           <p className="text-xl">|</p>
-          <a href="https://duckduckgo.com/bangs">bangs list</a>
+          <a href="#">link</a>
         </div>
       </div>
       <div className="fixed right-0 bottom-0 justify-end p-4">
